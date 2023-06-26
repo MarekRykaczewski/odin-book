@@ -21,7 +21,7 @@ export default function Home() {
         <Post />
       </div>
 
-      <div>
+      <div className={styles.sideContainer}>
         <Groups />
       </div>
 
