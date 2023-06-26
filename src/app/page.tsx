@@ -1,10 +1,12 @@
 import Image from 'next/image'
 import styles from './page.module.css'
 import Post from '@/components/post/Post'
+import Groups from '@/components/groups/Groups'
 
 export default function Home() {
   return (
     <div className={styles.container}>
+
       <form action="" className={styles.form}>
         <div className={styles.top}>
           <div className={styles.imgContainer}>
@@ -14,7 +16,15 @@ export default function Home() {
         </div>
         <button className={styles.button}>Post</button>
       </form>
-      <Post />
+
+      <div className={styles.postsContainer}>
+        <Post />
+      </div>
+
+      <div>
+        <Groups />
+      </div>
+
     </div>
   )
 }
