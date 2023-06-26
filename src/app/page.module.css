@@ -17,10 +17,26 @@
     align-items: center;
 }
 
+.top {
+    display: flex;
+    gap: 10px;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.imgContainer {
+    position: relative;
+    height: 40px;
+    width: 40px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
 .input {
     padding: 8px 15px;
     border-radius: 25px;
     border: none;
+    flex: 1;
     color: #E0E1DD;
     font-weight: bold;
     background-color: #1D3555;
