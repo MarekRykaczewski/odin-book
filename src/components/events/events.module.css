@@ -29,6 +29,12 @@
     border-radius: 5px;
 }
 
+.date {
+    font-size: 18px;
+    word-spacing: 60px;
+    text-align: center;
+}
+
 .eventsContainer {
     display: flex;
     flex-direction: column;

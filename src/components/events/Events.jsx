@@ -5,15 +5,21 @@ import Image from 'next/image'
 const events = [
     {
         id: 1,
-        title: "Donny Toretto",
+        title: "Computex 2023",
+        date: "May 30",
+        interested: "78k"
     },
     {
         id: 2,
-        title: "Gordon Freeman",
+        title: "Elon vs Zuckerberg",
+        date: "TBA",
+        interested: "126k"
     },
     {
         id: 3,
-        title: "Luke Skywalker",
+        title: "New Years Day",
+        date: "Jan 1",
+        interested: "251k"
     },
 ]
 
@@ -26,12 +32,11 @@ const Events = () => {
         {events.map(event => (
             <div className={styles.event} key={event.id}>
             <div className={styles.dateContainer}>
-                <span style={{fontWeight: "bold"}}>20</span>
-                <span>Dec</span>
+                <span className={styles.date}> {event.date} </span>
             </div>
             <div className={styles.details}>
-                <span> {event.name} </span>
-                <span className={styles.subtitle}> 78k Interested </span>
+                <span> {event.title} </span>
+                <span className={styles.subtitle}> {event.interested} Interested </span>
             </div>
         </div>
         ))}
