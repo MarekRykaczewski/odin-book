@@ -1,0 +1,52 @@
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: #041B3B; 
+    border: 1px solid #415A77;
+    border-radius: 5px;
+    color: white;
+    padding: 20px;
+    width: 100%;
+    height: fit-content;
+}
+
+.title {
+    font-weight: bold;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+
+.dateContainer {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    align-items: center;
+    background-color: #1D3555;
+    justify-content: center;
+    border-radius: 5px;
+}
+
+.eventsContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.event {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.details {
+    display: flex;
+    flex-direction: column;
+}
+
+.subtitle {
+    color: #4772ad;
+}
