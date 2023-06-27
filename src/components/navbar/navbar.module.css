@@ -18,3 +18,39 @@
     align-items: center;
     gap: 20px;
 }
+
+.profileContainer {
+    display: flex;
+    position: relative;
+}
+
+.imgContainer {
+    cursor: pointer;
+    position: relative;
+    width: 60px;
+    height: 60px;
+    overflow: hidden;
+    border-radius: 100%;
+}
+
+.arrowContainer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    background-color: #415A77;
+    width: 28px;
+    height: 28px;
+    border-radius: 100%;
+    top: 36px;
+    left: 42px;
+}
+
+.downArrow {
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    display: inline-block;
+    padding: 3px;
+    transform: rotate(45deg);
+    -webkit-transform: rotate(45deg);
+}
