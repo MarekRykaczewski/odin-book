@@ -30,7 +30,7 @@ const Friends = () => {
         {friends.map(friend => (
             <div className={styles.friend} key={friend.id}>
             <div className={styles.imgContainer}>
-                <Image alt='' src={friend.img} fill={true} />
+                <Image style={{objectFit:'cover'}} alt='' src={friend.img} fill={true} />
             </div>
             <div className={styles.details}>
                 <span> {friend.name} </span>

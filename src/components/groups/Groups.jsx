@@ -33,7 +33,7 @@ const Groups = () => {
         {groups.map(group => (
           <div className={styles.group} key={group.id}>
             <div className={styles.imgContainer}>
-                <Image alt='' src={group.img} fill={true} />
+                <Image style={{objectFit:'cover'}} alt='' src={group.img} fill={true} />
             </div>
             <div className={styles.details}>
               <span> {group.title} </span>
