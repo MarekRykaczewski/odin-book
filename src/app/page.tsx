@@ -2,6 +2,7 @@ import Image from 'next/image'
 import styles from './page.module.css'
 import Post from '@/components/post/Post'
 import Groups from '@/components/groups/Groups'
+import Friends from '@/components/friends/Friends'
 
 export default function Home() {
   return (
@@ -23,6 +24,7 @@ export default function Home() {
 
       <div className={styles.sideContainer}>
         <Groups />
+        <Friends />
       </div>
 
     </div>
