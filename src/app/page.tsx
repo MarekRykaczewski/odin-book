@@ -21,6 +21,8 @@ export default function Home() {
 
       <div className={styles.postsContainer}>
         <Post />
+        <Post />
+        <Post />
       </div>
 
       <div className={styles.sideContainer}>
