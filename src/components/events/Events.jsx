@@ -21,6 +21,18 @@ const events = [
         date: "Jan 1",
         interested: "251k"
     },
+    {
+        id: 4,
+        title: "Women's Day",
+        date: "Mar 8",
+        interested: "572k"
+    },
+    {
+        id: 5,
+        title: "Men's Day",
+        date: "Mar 10",
+        interested: "378k"
+    },
 ]
 
 const Events = () => {

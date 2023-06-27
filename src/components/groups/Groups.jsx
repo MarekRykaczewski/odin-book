@@ -23,6 +23,18 @@ const Groups = () => {
         img: "https://images.pexels.com/photos/376464/pexels-photo-376464.jpeg?auto=compress&cs=tinysrgb&w=400",
         members: 6731
     },
+        {
+        id: 4,
+        title: "MMA",
+        img: "https://images.pexels.com/photos/6295797/pexels-photo-6295797.jpeg?auto=compress&cs=tinysrgb&w=400",
+        members: 8455
+    },
+        {
+        id: 5,
+        title: "Origami",
+        img: "https://images.pexels.com/photos/1272838/pexels-photo-1272838.jpeg?auto=compress&cs=tinysrgb&w=400",
+        members: 2132
+    },
 ]
 
   return (

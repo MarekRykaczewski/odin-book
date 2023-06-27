@@ -20,6 +20,16 @@ const Friends = () => {
             name: "Luke Skywalker",
             img: "https://images.pexels.com/photos/3526022/pexels-photo-3526022.jpeg?auto=compress&cs=tinysrgb&w=400",
         },
+        {
+            id: 4,
+            name: "Yoda",
+            img: "https://images.pexels.com/photos/7829101/pexels-photo-7829101.jpeg?auto=compress&cs=tinysrgb&w=400",
+        },
+        {
+            id: 5,
+            name: "Darth Vader",
+            img: "https://images.pexels.com/photos/4310574/pexels-photo-4310574.jpeg?auto=compress&cs=tinysrgb&w=400",
+        },
     ]
 
     return (
