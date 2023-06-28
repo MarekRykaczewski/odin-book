@@ -8,7 +8,7 @@ import Image from 'next/image'
 const Navbar = () => {
   return (
     <div className={styles.container}>
-        <Link className={styles.logo} href="/">OdinBook</Link>
+        <Link className={styles.logo} href="/">Home</Link>
         <div className={styles.links}>
         <span>Marek Rykaczewski</span>
         <div className={styles.profileContainer}>

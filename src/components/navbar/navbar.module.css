@@ -3,7 +3,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: transparent; 
+    background-color: #041B3B; 
+    border-bottom: 1px solid #415A77;
     padding: 0 60px;
     color: white;
 }

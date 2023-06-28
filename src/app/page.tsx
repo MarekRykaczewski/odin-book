@@ -25,9 +25,7 @@ export default function Home() {
       </div>
 
       <div className={styles.sideContainer}>
-        <Groups />
         <Friends />
-        <Events />
       </div>
 
     </div>
